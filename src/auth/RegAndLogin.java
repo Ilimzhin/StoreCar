@@ -6,7 +6,7 @@ public class RegAndLogin {
 
     Scanner sc = new Scanner(System.in);
 
-    void registrationAndLogin() {
+    public void registrationAndLogin() {
 
         boolean isActive = true;
         String logPasTry = "";

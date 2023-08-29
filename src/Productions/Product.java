@@ -60,7 +60,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "\nProduct: " +
+        return "\n\nProduct: " +
                 "\nmark: " + mark +
                 "\nmodel: " + model +
                 "\ncarBody: " + carBody +
