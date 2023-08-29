@@ -5,6 +5,7 @@ public class Product {
     private String model;
     private String carBody;
     private int maxSpeed;
+    private double price;
 
     public Product(String mark, String model, String carBody, int maxSpeed) {
         this.mark = mark;
