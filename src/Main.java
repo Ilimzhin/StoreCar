@@ -1,9 +1,6 @@
 import Productions.Category;
-import Productions.Garage;
 import Productions.Product;
 import auth.Initialization;
-import auth.RegAndLogin;
-
 import java.util.Scanner;
 
 public class Main {
@@ -18,13 +15,13 @@ public class Main {
     public static void shop() {
         Scanner sc = new Scanner(System.in);
         Product product1 = new Product("MB          1", "W124", "black", 200, 4000);
-        Product product2 = new Product("MB          2", "W124", "black", 200, 4000);
-        Product product3 = new Product("MB          3", "W124", "black", 200, 4000);
-        Product product4 = new Product("MB          4", "W124", "black", 200, 4000);
+        Product product2 = new Product("MB          2", "W210", "white", 230, 8000);
+        Product product3 = new Product("MB          3", "W211", "blue", 250, 12000);
+        Product product4 = new Product("MB          4", "W221", "pink", 300, 20000);
         Product product5 = new Product("Lada          5", "Sedan", "Baklazhan", 45, 1200);
-        Product product6 = new Product("Lada          6", "Sedan", "Baklazhan", 45, 1200);
-        Product product7 = new Product("Lada          7", "Sedan", "Baklazhan", 45, 1200);
-        Product product8 = new Product("Lada          8", "Sedan", "Baklazhan", 45, 1200);
+        Product product6 = new Product("Lada          6", "четырка", "Синий", 100, 1000);
+        Product product7 = new Product("Lada          7", "семерка", "Красный", 80, 1200);
+        Product product8 = new Product("Lada          8", "шестерка", "черный", 60, 1500);
         Product[] products = {product1, product2, product3, product4, product5, product6, product7, product8};
         Category categoryMB = new Category("Mercedes-benz", new Product[]{product1, product2, product3, product4});
         Category categoryLada = new Category("Lada", new Product[]{product5, product6, product7, product8});
