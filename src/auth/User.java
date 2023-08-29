@@ -1,7 +1,7 @@
 package auth;
 
 public class User {    private String login;
-    private String password;    private Garage basket;
+    private String password;    //private Garage basket;
     public String getLogin() {
         return login;    }
     public void setLogin(String login) {
@@ -10,8 +10,8 @@ public class User {    private String login;
         return password;    }
     public void setPassword(String password) {
         this.password = password;    }
-    public Garage getBasket() {
-        return cars;    }
-    public void setBasket(Garage cars) {
-        this.cars = cars;    }
+   // public Garage getBasket() {
+   //     return cars;    }
+   // public void setBasket(Garage cars) {
+     //   this.cars = cars;    }
 }
