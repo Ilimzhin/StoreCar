@@ -49,12 +49,21 @@ public class Product {
         this.maxSpeed = maxSpeed;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     @Override
     public String toString() {
         return "\nProduct: " +
                 "\nmark: " + mark +
                 "\nmodel: " + model +
                 "\ncarBody: " + carBody +
-                "\nmaxSpeed: " + maxSpeed;
+                "\nmaxSpeed: " + maxSpeed +
+                "\nprice: " + price;
     }
 }
