@@ -47,4 +47,13 @@ public class Product {
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
+
+    @Override
+    public String toString() {
+        return "\nProduct: " +
+                "\nmark: " + mark +
+                "\nmodel: " + model +
+                "\ncarBody: " + carBody +
+                "\nmaxSpeed: " + maxSpeed;
+    }
 }
