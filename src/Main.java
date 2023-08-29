@@ -1,15 +1,17 @@
 import Productions.Category;
 import Productions.Garage;
 import Productions.Product;
+import auth.Initialization;
 import auth.RegAndLogin;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        RegAndLogin regAndLogin = new RegAndLogin();
-        regAndLogin.registrationAndLogin();
+        Initialization initialization = new Initialization();
+        initialization.initialization();
         shop();
+
 // max wirbelwind
     }
 

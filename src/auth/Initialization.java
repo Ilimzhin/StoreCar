@@ -54,7 +54,7 @@ public class Initialization {
                 else localNotifications(3);
             } else {
                 localNotifications(5);
-                return false;
+                System.exit(0);
             }
             counter++;
         }
@@ -67,8 +67,10 @@ public class Initialization {
         else if (status == 4) System.out.println("[!] Login length should not be less than 3.");
         else if (status == 5) System.out.println("[!] Too many attempts have been used.");
         else if (status == 6) System.out.println("""
-                [!] The password must be at least 8 characters long, have at least:\s                            1. One digit;
-                2. One special character;                            3. One capital letter;
+                [!] The password must be at least 8 characters long, have at least:\s
+                1. One digit;
+                2. One special character;                            
+                3. One capital letter;
                 4. One small letter.""");        // Notifications:
         else if (status == 7)
             System.out.println("[i] Login to the account has been successfully completed.");        // Else:
