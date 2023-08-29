@@ -7,11 +7,12 @@ public class Product {
     private int maxSpeed;
     private double price;
 
-    public Product(String mark, String model, String carBody, int maxSpeed) {
+    public Product(String mark, String model, String carBody, int maxSpeed, double price) {
         this.mark = mark;
         this.model = model;
         this.carBody = carBody;
         this.maxSpeed = maxSpeed;
+        this.price = price;
     }
 
     public Product() {
