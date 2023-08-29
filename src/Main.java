@@ -10,7 +10,7 @@ public class Main {
         RegAndLogin regAndLogin = new RegAndLogin();
         regAndLogin.registrationAndLogin();
         shop();
-
+// max wirbelwind
     }
 
     public static void shop() {
