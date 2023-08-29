@@ -61,19 +61,21 @@ public class Initialization {
     }
 
     public static void localNotifications(int status) {
-        // Errors:        if (status == 1) System.out.println("[!] Incorrect value.");
-        if (status == 2) System.out.println("[!] Unknown error.");
+        if (status == 1) System.out.println("[!] Incorrect value.");
+        else if (status == 2) System.out.println("[!] Unknown error.");
         else if (status == 3) System.out.println("[!] Incorrect login or password.");
         else if (status == 4) System.out.println("[!] Login length should not be less than 3.");
         else if (status == 5) System.out.println("[!] Too many attempts have been used.");
         else if (status == 6) System.out.println("""
                 [!] The password must be at least 8 characters long, have at least:\s
                 1. One digit;
-                2. One special character;                            
+                2. One special character;                           
                 3. One capital letter;
-                4. One small letter.""");        // Notifications:
+                4. One small letter.""");
+        // Notifications:
         else if (status == 7)
-            System.out.println("[i] Login to the account has been successfully completed.");        // Else:
+            System.out.println("[i] Login to the account has been successfully completed.");
+        // Else:
         else System.out.println("[!] Non-existent status error code.");
     }
 }

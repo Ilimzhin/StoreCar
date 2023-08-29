@@ -29,9 +29,7 @@ public class Category {
 
     @Override
     public String toString() {
-        return "\nCategory: " +
-                "\nname: " + name +
-                "\ncars: " + Arrays.toString(cars);
+        return Arrays.toString(cars);
     }
 
     public void parseProducts() {
